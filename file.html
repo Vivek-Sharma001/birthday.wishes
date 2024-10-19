@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Piu❤️!</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            background-color: #fff;
+        }
+
+        .pink-theme-container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        /* Top Section - Light Pink Theme */
+        .light-pink {
+            background-color: #ffb6c1; /* Light pink */
+            color: #ff69b4;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+            animation: slideIn 1s ease-out;
+        }
+
+        .light-pink h1 {
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 5px #ff69b4;
+        }
+
+        /* Bottom Section - Darker Pink Theme */
+        .darker-pink {
+            background-color: #ff69b4; /* Darker pink */
+            color: #fff; /* White text for contrast */
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        .darker-pink h1 {
+            font-size: 2.5rem;
+            font-family: 'Georgia', serif;
+            text-shadow: 2px 2px 5px #fff;
+        }
+
+        /* Shared Styles */
+        .balloon {
+            font-size: 4rem;
+            margin: 20px 0;
+        }
+
+        button {
+            background-color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #f0e0e0;
+        }
+
+        .closing {
+            margin-top: 20px;
+            font-style: italic;
+            color: #fff;
+        }
+
+        /* Animations */
+        @keyframes slideIn {
+            from { transform: translateY(-100%); }
+            to { transform: translateY(0); }
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="pink-theme-container">
+        <!-- Top Section -->
+        <div class="light-pink">
+            <h1> 🥳😌Happy Birthday, Piu 💕🫰</h1>
+            <p>I’m so lucky to have you in my life. May today bring you endless joy and love!</p>
+            <div class="balloon">🎈🎈🎈</div>
+            <button onclick="playMusic()">Play Birthday Song 🎶</button>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="darker-pink">
+            <h1>💌 A Special Note Just for You 💌</h1>
+            <p>You make every day brighter just by being yourself. Thank you for your kindness, laughter, and endless support. I hope this year brings everything you’ve dreamed of—and more!</p>
+            <p>hmmmm....to very happy birthday meri taraf se terko 😁</p
+                <p>bas ek baat to bolunga yaha ki khush rha kar 🥰😁......Jyada tensin lene se kuch nii hona, So band krde </p>
+            <p class="closing">With love and gratitude, Vivek 💖</p>
+        </div>
+    </div>
+
+    <script>
+        function playMusic() {
+            alert("🎶 Playing the birthday song in your heart 🎶");
+        }
+    </script>
+</body>
+</html>
